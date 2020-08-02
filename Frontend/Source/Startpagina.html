@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Battleship Homepage</title>
+		<link rel="stylesheet" href="Style/Startpagina.css" />
+		<link rel="stylesheet" href="Style/style.css" />
+		<script src="Scripts/GamePage.js"></script>
+		<script>
+			window.addEventListener("load", OnWindowLoad);
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+					<img src="Style/assets/battleshipLogo.jpg" alt="" />
+				</div>
+				<!-- <ul class="nav-buttons">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Battleship Guide</a></li>
+				<li><a href="#">Battleship Legends</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul> -->
+			</div>
+
+			<div class="text">
+				<h2 class="title">Welcome to Battleship</h2>
+				<h2>Options</h2>
+				<label>Normal ships</label>
+				<label class="switch">
+					<input type="checkbox" id="btnSelectBoatplacement" />
+					<span class="slider round"></span>
+				</label>
+				<label>Displaced ships</label>
+				<br />
+				<button id="btnStartGame" class="btn" type="submit" class="submit-btn">
+					Start game
+				</button>
+			</div>
+		</header>
+	</body>
+</html>
